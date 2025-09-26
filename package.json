@@ -1,0 +1,18 @@
+{
+  "name": "authsignal-flutter-test-server",
+  "version": "1.0.0",
+  "description": "Test server for Authsignal Flutter SDK testing",
+  "main": "backend_test_server.js",
+  "scripts": {
+    "start": "node backend_test_server.js",
+    "dev": "nodemon backend_test_server.js"
+  },
+  "dependencies": {
+    "@authsignal/node": "^2.0.0",
+    "express": "^4.18.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

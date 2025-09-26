@@ -1,0 +1,25 @@
+name: authsignal_test_app
+description: A test app to validate Authsignal Flutter SDK functionality
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  
+  # Local dependency on the Authsignal Flutter SDK
+  authsignal_flutter:
+    path: ../authsignal-flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
